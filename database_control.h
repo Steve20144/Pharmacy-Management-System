@@ -31,6 +31,11 @@ public:
     int get_quantity();
 
     bool isDrug();
+
+    void write();
+    void update(char option);
+    void read();
+    void remove();
 };
 
 #endif
